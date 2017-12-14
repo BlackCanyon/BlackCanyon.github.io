@@ -11,3 +11,7 @@ The existence of projects like BOINC makes the problems of distributed computing
 The issue with this line of thinking is that it is flat out untrue. The framework employed by BOINC is wrought with redundant computation, a poor rewarding system, and is subject to abuse by motivated parties.
 
 Verifiable computation is still an unsolved problem in data science. There is no simple way to verify that a solution is correct without doing all the work to get to that solution yourself. BOINC projects solve this with Verification by Replication. Each computation performed by one user is then repeated by at least one other. If the solutions match, the computations are considered to be correct. Now, this is obviously a slow process, and it is impossible to immediately reward the user for their contribution. This strategy also essentially wastes the CPU time of someone performing the verification work.
+
+Which brings us back to the problem: How do you offer distributed computing services in a worthwhile manner? The answer is simple: you don't. I see only one way to accomplish this, and it involves end-to-end encryption of the data being computed on and the results of those computations. Funnily enough, doing this efficiently is another unsolved problem in computer science.
+
+Seems worthless.
